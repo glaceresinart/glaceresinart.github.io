@@ -8,12 +8,12 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #fff8f0;
+      background: #fffaf5;
       color: #333;
     }
     header {
-      background: #e6b8af;
-      color: white;
+      background: #d98880;
+      color: lavender;
       padding: 1rem;
       text-align: center;
     }
@@ -35,14 +35,14 @@
       font-size: 2.2rem;
       margin-bottom: 0.5rem;
     }
-    .products {
+    .products, .gallery {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
-      padding: 1rem;
+      padding: 2rem;
     }
-    .product {
+    .product, .gallery img {
       background: white;
       border-radius: 8px;
       padding: 1rem;
@@ -56,17 +56,23 @@
     }
     .btn {
       display: inline-block;
-      padding: 10px 20px;
-      background: #e6b8af;
+      padding: 10px 16px;
+      background: #d98880;
       color: white;
       text-decoration: none;
       border-radius: 4px;
       margin-top: 10px;
+      font-weight: bold;
+    }
+    .payment {
+      background: #fbeee6;
+      padding: 2rem;
+      text-align: center;
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background: #eee;
+      background: #f2f2f2;
       margin-top: 2rem;
     }
   </style>
@@ -80,31 +86,60 @@
 
   <nav>
     <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#payment">Payment</a>
+    <a href="about.html">About Us</a>
     <a href="#contact">Contact</a>
-    <a href="https://www.instagram.com/glaceresinart?igsh=bXduaGx6ejZuNHll" target="_blank">Instagram</a>
   </nav>
 
   <section class="hero">
     <h1>Welcome to Glace Resin Art</h1>
-    <p>Explore our collection of handmade resin creations that reflect beauty and uniqueness.</p>
+    <p>Explore our collection of handmade resin creations.</p>
     <a class="btn" href="#products">Shop Now</a>
   </section>
 
   <section id="products" class="products">
+    <!-- Products with WhatsApp buttons -->
     <div class="product">
-      <img src="https://via.placeholder.com/250x200" alt="Resin Keychain">
+      <img src="https://via.placeholder.com/250x200" alt="Keychain">
       <h3>Custom Resin Keychain</h3>
-      <p>Beautiful personalized keychains starting at ₹199.</p>
+      <p>Starting at ₹99</p>
+      <a class="btn" href="https://wa.me/+917973523069?text=Hi, I'm interested in Custom Resin Keychain">Order on WhatsApp</a>
     </div>
+
     <div class="product">
-      <img src="https://via.placeholder.com/250x200" alt="Resin Stand">
+      <img src="https://via.placeholder.com/250x200" alt="Stand">
       <h3>Dashboard Resin Stand</h3>
-      <p>Add elegance to your car or desk with our mini stands.</p>
+      <p>Starting at ₹149</p>
+      <a class="btn" href="https://wa.me/+917973523069?text=Hi, I'm interested in Dashboard Resin Stand">Order on WhatsApp</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Nameplate">
+      <h3>Resin Name Plate</h3>
+      <p>Starting at ₹259</p>
+      <a class="btn" href="https://wa.me/+917973523069?text=Hi, I'm interested in Resin Name Plate">Order on WhatsApp</a>
     </div>
   </section>
 
+  <section id="gallery" class="gallery">
+    <!-- Gallery images -->
+    <img src="https://via.placeholder.com/250x200" alt="Gallery Image 1">
+    <img src="https://via.placeholder.com/250x200" alt="Gallery Image 2">
+    <img src="https://via.placeholder.com/250x200" alt="Gallery Image 3">
+    <img src="https://via.placeholder.com/250x200" alt="Gallery Image 4">
+  </section>
+
+  <section id="payment" class="payment">
+    <h2>Payment Options</h2>
+    <p><strong>UPI:</strong> glaceart@upi</p>
+    <p><strong>Phonepe:</strong> 7973523069@ybl</p>
+    <p><strong>Google Pay:</strong> arunsh146@okicici</p>
+    <p>Please confirm availability on WhatsApp before making payment.</p>
+  </section>
+
   <footer id="contact">
-    <p>📞 Contact us: <a href="https://wa.me/+917973523069/?text=Hi,I'm interested in your resin art.Please send me more info!">WhatsApp</a> | 📧 glaceresinart@gmail.com</p>
+    <p>📞 <a href="https://wa.me/+917973523069/?text=Hi,I'm interested in your resin art.Please send me more info!">WhatsApp</a> | 📧 glaceresinart@gmail.com</p>
     <p>&copy; 2025 Glace Resin Art</p>
   </footer>
 

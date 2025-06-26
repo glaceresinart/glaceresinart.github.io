@@ -44,4 +44,21 @@ footer {
   background-color: #f1f1f1;
   text-align: center;
   padding: 20px;
+.products {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.products section {
+  margin-bottom: 40px;
+}
+
+.products h2 {
+  color: #6f42c1;
+}
+
+.products ul {
+  list-style: square;
+  padding-left: 20px;
 }
